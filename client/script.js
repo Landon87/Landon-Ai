@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://landon-ai.onrender.com', {
+    const response = await fetch('https://landon-p1xyml26p-landon87.vercel.app/', {
         method:'POST',
         headers: {
             'Content-Type': 'application/json',
